@@ -1,0 +1,3 @@
+api.cf500.app
+
+reverse_proxy /* localhost:8000

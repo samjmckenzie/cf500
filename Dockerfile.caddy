@@ -1,0 +1,5 @@
+FROM caddy:2.1.1-alpine
+WORKDIR /cf500
+COPY Caddyfile .
+EXPOSE 443
+CMD caddy start

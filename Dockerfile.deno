@@ -1,0 +1,5 @@
+FROM hayd/deno
+WORKDIR /cf500
+COPY server-deno/* .
+EXPOSE 8000
+CMD deno run --allow-net main.ts

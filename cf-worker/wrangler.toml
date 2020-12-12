@@ -1,0 +1,8 @@
+name = "cf500"
+type = "webpack"
+account_id = "c020ce55a7892125b33a01786c9a7016"
+workers_dev = true
+route = "cf500.app/api/*"
+zone_id = "77a1b23b2b479b5d80e9801ba9cf7ecc"
+webpack_config = "webpack.config.js"
+kv_namespaces = [{ binding = "cf500", id = "55c91ce57e614fa4932751a3563a7157" }]
